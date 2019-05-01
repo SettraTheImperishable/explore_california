@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Red Creek</title>
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/feedback.css">
+</head>
+<body>
+	<form id="signup">
+		<fieldset>
+			<legend>Enter your details</legend>
+			<ol>
+				<li>
+					<label for="fullName">Full Name:</label>
+					<input id="fullName" name="fullName" type="text" autofocus="" placeholder="John Smith" />
+				</li>
+				<li>
+					<label for="email">Email Address:</label>
+					<input id="email" name="email" type="email" placeholder="johnsmith@gmail.com" />
+				</li>
+				<li>
+					<label for="age">Age:</label>
+					<input id="age" name="age" type="number" placeholder="16" />
+				</li>
+				<li>
+					<label for="resume">Applying? Place url to resume!:</label>
+					<input id="resume" name="resume" type="url" placeholder="http://wwww.redCreek.com" />
+				</li>
+				<li>
+					<label for="comments">Additional Comments:</label>
+					<textarea id="comments" name="comments" placeholder="Please type here."></textarea>
+				</li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<legend>Supplies you can provide yourself:</legend>
+			<ol>
+				<li>
+					<label for="sleepingBag">Sleeping Bag</label>
+					<input id="sleepingBag" name="supplies" type="checkbox" />
+				</li>
+				<li>
+					<label for="backpack">Backpack</label>
+					<input id="backpack" name="supplies" type="checkbox" />
+				</li>
+				<li>
+					<label for="fishingRod">Fishing Rod</label>
+					<input id="fishingRod" name="supplies" type="checkbox" />
+				</li>
+				<li>
+					<label for="none">None</label>
+					<input id="none" name="supplies" type="checkbox" />
+				</li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<legend>Rating your experience with us:</legend>
+			<ol>
+				<li>
+					<label for="poor">Poor</label>
+					<input id="poor" name="rating" type="radio" />
+				</li>
+				<li>
+					<label for="moderate">Moderate</label>
+					<input id="moderate" name="rating" type="radio" />
+				</li>
+				<li>
+					<label for="good">Good</label>
+					<input id="good" name="rating" type="radio" />
+				</li>
+				<li>
+					<label for="excellent">Excellent</label>
+					<input id="excellent" name="rating" type="radio" />
+				</li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<legend>Which camp do you wish to attend?</legend>
+			<select>
+				<option value="redCreek">Red Creek</option>
+				<option value="assiniboineLake">Assiniboine Lake</option>
+				<option value="blueMoundLake">Blue Mound Lake</option>
+			</select>
+
+		</fieldset>
+		<fieldset>
+			<button type="reset">Reset</button>
+			<button type="submit">Submit</button>
+		</fieldset>
+	</form>
+</body>
+</html>
